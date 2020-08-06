@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#6699ff"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="100dp"
+        android:background="#6699ff"
+        android:src="@mipmap/ic_launcher_round"/>
+    <EditText
+        android:id="@+id/editName"
+        android:hint="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:layout_marginTop="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <EditText
+        android:id="@+id/editPass"
+        android:hint="Password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_alignParentTop="true"
+        android:textSize="23dp" />
+    <EditText
+        android:id="@+id/editPassword"
+        android:hint="Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textSize="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="135dp"
+        android:layout_below="@id/editPassword"/>
+</RelativeLayout>
